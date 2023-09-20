@@ -1,0 +1,22 @@
+/* *{background-color: cadetblue;} */
+
+nav> ul {display: flex;}
+
+nav li{list-style: none; padding: 10px; font-size: large;background-color: black;margin: 4px;margin-bottom: 0px;}
+
+nav li a{text-decoration: none;color: aliceblue;}
+
+nav li :hover{background-color: lightgrey;}
+/* nested menu */
+/* nav li .dropdown{display: none; position: absolute;padding: 0%;} */
+/* nav li .dropdown {display: none;} */
+/* nav li :hover .dropdown a{display: block;} */
+/* .drop li :hover .dropdown{display: block;position: absolute;padding: 0%;margin: 0px;} */
+
+.dropdown{display: none;position: absolute;}
+.dropdown a {
+    color: rgb(255, 3, 3);
+    padding: 1px 1px;
+    text-decoration: none;
+    display: block;}
+    .drop:hover .dropdown{display: block;}
